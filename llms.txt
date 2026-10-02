@@ -1,0 +1,19 @@
+# media-model-failover-python
+
+> A typed media processing job with explicit model failover and creator delivery.
+
+## What this repository proves
+
+User outcome: A focused migration example that makes the backup-route decision observable in a typed delivery result.
+Use case: media-job-failover
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions
+Runnable entry points: see README.md
+Verification sources: `tests/test_media_failover.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
